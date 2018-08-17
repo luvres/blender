@@ -24,7 +24,7 @@ docker run -ti --rm --name Blender \
 -v $HOME/.Xauthority:/root/.Xauthority \
 -v /opt/blender-2.79b-linux-glibc219-x86_64:/mnt \
 -w /mnt \
-blender ./blender
+izone/blender ./blender
 ```
 ```
 ```
@@ -38,7 +38,7 @@ docker run -ti --rm --name Blender \
 -v $HOME/.Xauthority:/root/.Xauthority \
 -v $HOME/Downloads/blender-2.79b-linux-glibc219-x86_64:/mnt \
 -w /mnt \
-blender ./blender
+izone/blender ./blender
 ```
 
 -----
